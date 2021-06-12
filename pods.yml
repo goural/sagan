@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: saganapp
+  labels:
+    app: saganapp
+spec:
+  containers:
+    - name: nodeapp
+      image: goural/saganspring:latest
+      ports:
+        - containerPort: 8080
