@@ -6,7 +6,7 @@ metadata:
     app: saganapp
 spec:
   containers:
-    - name: nodeapp
+    - name: sagan
       image: goural/saganspring:latest
       ports:
         - containerPort: 8080
